@@ -1,0 +1,383 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+/****-----start-body----****/
+body{
+text-align: center;
+background: #164771;
+background-size:cover;
+}
+
+@font-face{
+font-family: "Antic-Regular";
+src:url(../fonts/Antic-Regular.ttf);
+}
+
+.header {
+text-align: center;
+padding:40px 0;
+padding-top:100px;
+padding-bottom:65px;
+}
+
+.header h1 {
+font-size:56px;
+color: #fff;
+font-family: "Antic-Regular";
+text-shadow: 2px 1px 0px rgba(255, 255, 255, 0.85), 3px 2px 0px rgba(255, 255, 255, 0.70), 4px 3px 0px rgba(255, 255, 255, 0.6),
+			 5px 4px 0px rgba(255, 255, 255, 0.45), 6px 5px 0px rgba(255, 255, 255, 0.35);
+letter-spacing:3px;
+margin:0 auto;
+width:80%;
+}
+
+.design-w3l{
+background:#58adf7;
+width:26%;
+margin:0 auto;
+padding:15px;
+ -webkit-box-reflect: below 0px -webkit-linear-gradient(bottom, rgba(255, 255, 255, 0.16) 10%, transparent 65%, transparent 100%);
+ -moz-box-reflect: below 0px -moz-linear-gradient(bottom, rgba(255, 255, 255, 0.16) 10%, transparent 65%, transparent 100%);
+}
+
+.mail-form-agile {
+padding: 40px 40px 34px;
+text-align:center;
+margin:0 auto;
+background:#58adf7;
+color:#000;
+ border: 2px dashed #fff;
+box-shadow: 0 0 1px 0px rgba(0,0,0,0.6);
+-moz-box-shadow: 0 0 1px 0px rgba(0,0,0,0.6);
+-webkit-box-shadow: 0 0 1px 0px rgba(0,0,0,0.6);
+-o-box-shadow: 0 0 1px 0px rgba(0,0,0,0.6);
+}
+
+.padding {
+margin: 26px 0;
+}
+
+.mail-form-agile input[type="text"], .mail-form-agile input[type="password"] {
+padding: 13px 10px;
+width: 94%;
+font-size: 16px;
+outline: none;
+border:none;
+border-radius: 0px;
+-webkit-border-radius: 0px;
+-moz-border-radius: 0px;
+background:#58adf7;
+font-family: "Antic-Regular", sans-serif;
+-moz-box-shadow:    inset 0 0 6px #312d2c;;
+-webkit-box-shadow: inset 0 0 6px #312d2c;;
+box-shadow: inset 0 0 6px #312d2c;;
+color:#fff;
+letter-spacing:1.8px;
+font-weight:500;
+}
+::-webkit-input-placeholder{
+   color:#333 !important;
+}
+
+.mail-form-agile input[type="submit"], .mail-form-agile input[type="reset"] {
+font-size: 20px;
+padding: 8px 30px;
+border: none;
+text-transform: capitalize;
+outline: none;
+border-radius: 4px;
+-webkit-border-radius: 4px;
+-moz-border-radius: 4px;
+background: #fff;
+color: #000;
+cursor: pointer;
+margin: 0 auto;
+margin:10px;
+font-family: "Antic-Regular", sans-serif;
+ -webkit-transition-duration: 0.8s;
+ transition-duration: 0.8s;
+ letter-spacing:1.2px;
+ box-shadow: 0 -1px 0 #ccc, 
+ 0 2px 0 #c9c9c9,
+ 0 3px 0 #bbb,
+ 0 4px 0 #b9b9b9,
+ 0 5px 0 #aaa,
+ 0 6px 1px rgba(0,0,0,.1),
+ 0 0 5px rgba(0,0,0,.1),
+ 0 1px 3px rgba(0,0,0,.3),
+ 0 3px 5px rgba(0,0,0,.2),
+ 0 5px 10px rgba(0,0,0,.25),
+ 0 10px 10px rgba(0,0,0,.2),
+ 0 20px 20px rgba(0,0,0,.15);
+}
+
+.mail-form-agile input[type="submit"]:hover {
+ -webkit-transition-duration: 0.9s;
+ transition-duration: 0.9s;
+ box-shadow: 	2px 0 0 #ccc,
+				3px 0px 0 #c9c9c9,
+				4px 0px 0 #bbb,
+				5px 0 0 #b9b9b9,
+				6px 0 0 #aaa,
+				7px 0 1px rgba(0,0,0,.1),
+				8px 0 5px rgba(0,0,0,.1),
+				9px -1px 3px rgba(0,0,0,.3),
+				10px -3px 5px rgba(0,0,0,.2),
+				11px -5px 10px rgba(0,0,0,.25),
+				12px -10px 10px rgba(0,0,0,.2),
+				13px -20px 20px rgba(0,0,0,.15);
+}
+.mail-form-agile input[type="reset"]:hover {
+ -webkit-transition-duration: 0.9s;
+ transition-duration: 0.9s;
+ box-shadow: 	-2px 0 0 #ccc,
+				-3px 0px 0 #c9c9c9,
+				-4px 0px 0 #bbb,
+				-5px 0 0 #b9b9b9,
+				-6px 0 0 #aaa,
+				-7px 0 1px rgba(0,0,0,.1),
+				-8px 0 5px rgba(0,0,0,.1),
+				-9px -1px 3px rgba(0,0,0,.3),
+				-10px -3px 5px rgba(0,0,0,.2),
+				-11px -5px 10px rgba(0,0,0,.25),
+				-12px -10px 10px rgba(0,0,0,.2),
+				-13px -20px 20px rgba(0,0,0,.15);
+}
+
+.footer-w3agile {
+text-align: center;
+padding: 50px 15px;
+padding-top:75px;
+}
+.footer-w3agile p {
+font-size: 16px;
+font-family: "Antic-Regular";
+color: #fff;
+margin: 0px;
+font-weight:600;
+letter-spacing:2px;
+line-height:26px;
+}
+.footer-w3agile p a:hover {
+color: #fff;
+ -webkit-transition-duration: 0.8s;
+ transition-duration: 0.8s;
+}
+.footer-w3agile p a {
+font-family: "Antic-Regular";
+color: #58adf7;
+-webkit-transition-duration: 0.8s;
+transition-duration: 0.8s;
+}
+
+
+/*-- responsive media queries --*/
+@media screen and (max-width:1440px){
+.header {
+padding:55px 0;
+}
+}
+
+@media screen and (max-width:1366px){
+.header {
+padding:55px 0;
+}
+.design-w3l {
+width: 30%;
+}
+}
+
+@media screen and (max-width:1280px){
+.header h1 {
+font-size: 52px;
+}
+}
+
+@media screen and (max-width:1080px){
+.header {
+padding:48px 0;
+}
+.header h1 {
+font-size: 50px;
+}
+.design-w3l {
+width: 36%;
+}
+.footer-w3agile p {
+font-weight: 400;
+}
+}
+
+@media screen and (max-width:1024px){
+.design-w3l {
+width: 38%;
+}
+}
+
+@media screen and (max-width:991px){
+.design-w3l {
+width: 38%;
+}
+
+.mail-form-agile {
+    padding: 40px 20px 30px;
+}
+.mail-form-agile input[type="submit"], .mail-form-agile input[type="reset"] {
+    font-size: 18px;
+	padding: 6px 26px;
+}
+
+}
+
+@media screen and (max-width:800px){
+.header h1 {
+font-size: 46px;
+}
+.design-w3l {
+width: 44%;
+}
+.mail-form-agile input[type="text"], .mail-form-agile input[type="password"] {
+font-size: 15px;
+}
+}
+
+@media screen and (max-width:768px){
+.design-w3l {
+width: 48%;
+}
+}
+
+@media screen and (max-width:736px){
+.header h1 {
+font-size: 44px;
+}
+.design-w3l {
+width: 52%;
+}
+}
+
+@media screen and (max-width:667px){
+.design-w3l {
+width: 54%;
+}
+.header h1 {
+font-size: 42px;
+}
+}
+
+@media screen and (max-width:640px){
+.header {
+padding:40px 0;
+}
+.header h1 {
+font-size: 40px;
+}
+.design-w3l {
+width: 58%;
+}
+.mail-form-agile input[type="submit"] {
+font-size: 18px;
+}
+.footer-w3agile p {
+font-size: 15px;
+}
+}
+
+@media screen and (max-width:480px){
+.header {
+padding:30px 0;
+}
+.header h1 {
+font-size: 34px;
+}
+.design-w3l{
+width: 68%;
+}
+.mail-form-agile input[type="text"], .mail-form-agile input[type="password"] {
+padding: 11px 10px;
+}
+.mail-form-agile input[type="submit"], .mail-form-agile input[type="reset"] {
+font-size: 14px;
+}
+.footer-w3agile p {
+font-size: 13px;
+}
+}
+
+@media screen and (max-width:414px){
+.header h1 {
+font-size: 28px;
+width:96%;
+}
+.design-w3l{
+width: 76%;
+}
+.mail-form-agile input[type="text"], .mail-form-agile input[type="password"] {
+    font-size: 14px;
+}
+}
+
+@media screen and (max-width:375px){
+.design-w3l{
+width: 84%;
+padding:10px;
+}
+.mail-form-agile {
+    padding: 30px 16px 24px;
+}
+.mail-form-agile input[type="text"], .mail-form-agile input[type="password"] {
+    padding: 10px 7px;
+}
+.mail-form-agile input[type="submit"], .mail-form-agile input[type="reset"] {
+    padding: 6px 16px;
+}
+.footer-w3agile {
+    padding: 40px 10px;
+    padding-top: 40px;
+}
+}
+
+@media screen and (max-width:320px){
+.header h1 {
+font-size: 24px;
+}
+.desing {
+width: 90%;
+}
+
+}
+
+
+
+
+
+
+
+
+

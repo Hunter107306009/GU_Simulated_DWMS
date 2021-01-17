@@ -1,0 +1,120 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Mirror Login Form Responsive Widget Template  :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Mirror Login Form Widget Tab Form,Login Forms,Sign up Forms,Registration Forms,News letter Forms,Elements"/>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+
+</head>
+
+<body>
+
+	<div class="header">
+		<h1 style="user-select: none;">GU 後台管理系統</h1>
+	</div>
+
+		<div class="design-w3l">
+		<div class="mail-form-agile">
+			<form action="#" method="post">
+				<input type="text" name="name" placeholder="Enter your name...." required=""/ id="account">
+				<input type="password"  name="password" class="padding" placeholder="Password" required=""/ id="password">
+				<input type="reset" value="Reset">
+				<input type="button" value="submit" id="go">
+			</form>
+		</div>
+		</div>
+	
+	<div class="footer-w3agile" style="user-select: none;">
+	<p>作者:吳泓澈/張詠翔/游勝凱 © 2020產銷期末<a href="https://github.com/Hunter107306009/-" target="_blank">  原始碼連結 </a>
+		<a href="https://www.youtube.com/watch?v=_PGLmVkUMdc&feature=youtu.be" target="_blank">  虛擬交易DEMO影片 </a></p>
+	</div>
+
+
+</body>
+
+<!--控制邏輯-->
+<script>
+	let account = document.getElementById('account');
+
+	let password = document.getElementById('password');
+
+	let gogoBTN = document.getElementById('go');
+    gogoBTN.addEventListener('click', function() 
+    {
+    	if(account.value.toString()=="teacher" && password.value.toString()=="lin")
+    	{
+      		location.href="客製化推薦.php?page_count=1"
+    	}
+    	else
+    	{
+    		alert("帳號或密碼錯誤")
+    		account.value=""
+    		password.value=""
+    	}
+    });
+</script>
+
+<style>
+#go{
+	font-size: 20px;
+	padding: 8px 30px;
+	border: none;
+	text-transform: capitalize;
+	outline: none;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	background: #fff;
+	color: #000;
+	cursor: pointer;
+	margin: 0 auto;
+	margin:10px;
+	font-family: "Antic-Regular", sans-serif;
+ 	-webkit-transition-duration: 0.8s;
+ 	transition-duration: 0.8s;
+ 	letter-spacing:1.2px;
+ 	box-shadow: 0 -1px 0 #ccc, 
+ 	0 2px 0 #c9c9c9,
+ 	0 3px 0 #bbb,
+	0 4px 0 #b9b9b9,
+ 	0 5px 0 #aaa,
+ 	0 6px 1px rgba(0,0,0,.1),
+ 	0 0 5px rgba(0,0,0,.1),
+ 	0 1px 3px rgba(0,0,0,.3),
+ 	0 3px 5px rgba(0,0,0,.2),
+ 	0 5px 10px rgba(0,0,0,.25),
+ 	0 10px 10px rgba(0,0,0,.2),
+ 	0 20px 20px rgba(0,0,0,.15);
+}
+
+#go:hover
+{
+	-webkit-transition-duration: 0.9s;
+ 	transition-duration: 0.9s;
+ 	box-shadow: 	-2px 0 0 #ccc,
+				-3px 0px 0 #c9c9c9,
+				-4px 0px 0 #bbb,
+				-5px 0 0 #b9b9b9,
+				-6px 0 0 #aaa,
+				-7px 0 1px rgba(0,0,0,.1),
+				-8px 0 5px rgba(0,0,0,.1),
+				-9px -1px 3px rgba(0,0,0,.3),
+				-10px -3px 5px rgba(0,0,0,.2),
+				-11px -5px 10px rgba(0,0,0,.25),
+				-12px -10px 10px rgba(0,0,0,.2),
+				-13px -20px 20px rgba(0,0,0,.15);
+}
+</style>
+
+
+</html>
